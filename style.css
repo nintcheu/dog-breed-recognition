@@ -1,0 +1,30 @@
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.file-section input[type="file"] {
+    margin: 20px 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#prediction {
+    margin-top: 20px;
+    font-size: 20px;
+    color: blue;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
