@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Recognition</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<!-- Load the MobileNet model -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+
+</head>
+<body>
+    <main>
+        <h1>Dog Breed Recognition</h1>
+	<h5>This app was built using ChatGPT in under an hour - By Chrystel Nintcheu</h5>
+        <section class="file-section">
+            <input type="file" id="file-input" accept="image/*">
+            <div class="error" id="input-error"></div>
+        </section>
+        <section class="image-section">
+            <img id="image" alt="Upload an image for breed recognition" />
+            <div id="prediction"></div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
